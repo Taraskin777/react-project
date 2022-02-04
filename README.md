@@ -1,1 +1,1 @@
-# Fake Shop project
+# Fake Blog
