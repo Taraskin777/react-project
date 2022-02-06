@@ -1,20 +1,28 @@
-import React from "react"
+import React from 'react'
 
-
-const MainBlock = () => {
-   return (
-      <>
-      <h2 className="text">Test text</h2>
-      </>
-   )
+const First = () => {
+    return (
+        <>
+            <section className="first">
+                <div className="first-big">
+                    <div className="first-small">
+                        <div className="say-hi">
+                            <div className="hello">
+                                <h1>Hello,<br/> I'm Tobby</h1>
+                            </div>
+                            <div className="photographer">PHOTOGRAPHER</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </>
+    )
 }
 
-
 export const Main = () => {
-   return (
-      <div className="container">
-           <MainBlock/>
-           <div>Main</div>
-       </div>
-   )
+    return (
+        <>
+            <First />
+        </>
+    )
 }
