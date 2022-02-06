@@ -3,7 +3,7 @@ import React from 'react'
 export const Header = () => {
     return (
         <>
-            <div className="section top-header">
+            <section className="top-header">
                 <div className="container">
                     <div>
                         <div className="row header">
@@ -34,7 +34,7 @@ export const Header = () => {
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
         </>
     )
 }
