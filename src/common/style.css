@@ -1,19 +1,82 @@
+* {
+   box-sizing: border-box;
+}
+
+body {
+   font-family: 'Montserrat', sans-serif;
+   font-family: 'PT Serif', serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=PT+Serif:wght@400;700&display=swap');
+
+.section {
+   width: 100%;
+
+}
+
 .container {
-   max-width: 1200px;
+   width: 100%;
    padding-left: 15px;
    padding-right: 15px;
    margin-left: auto;
    margin-right: auto;
 }
 
-.footer {
-   color: red;
-   font-size: 20px;
+.row {
+   display: flex;
+   flex-wrap: wrap;
+
 }
 
-.text {
-   color: blue;
-   font-size: 20px;
+.header {
+   justify-content: space-between;
+   align-content: center;
+   /* height: 100px; */
+}
+
+.top-header {
+   background-color: #252525;
+   height: 110px;
+   opacity: 0.95;
+
+}
+
+
+.logo {
+   width: 203px;
+   height: 110px;
+   background-image: url(img/retina-photographer.png);
+   background-position: center;
+   background-size: contain;
+   background-repeat: no-repeat;
+   cursor: pointer;
+
+}
+
+.logo a {}
+
+.menu {
    display: flex;
-   justify-content: center;
+   justify-content: space-between;
+
+
+}
+
+.first a {
+   color: white!important
+}
+
+.menu li a {
+  line-height: 110px;
+   text-decoration: none;
+   color: rgba(255, 255, 255, 0.548);
+   transition: 1s ease;
+
+}
+
+.menu li a:hover {
+   color: white;
+ font-size: 18px;
+   transition: 1s;
+   transition-duration: 1s;
 }
