@@ -1,0 +1,12 @@
+.logo {
+   width: 203px;
+   height: 110px;
+   background-image: url(image/retina-photographer.png);
+   background-position: center;
+   background-size: contain;
+   background-repeat: no-repeat;
+   cursor: pointer;
+
+}
+
+.logo a {}
