@@ -32,3 +32,17 @@ export const BlogListItem = ({
         </>
     )
 }
+
+BlogListItem.propTypes = {
+    image: PropTypes.string,
+    name: PropTypes.string.isRequired,
+    phototext: PropTypes.string,
+    buttonview: PropTypes.string.isRequired,
+    line: PropTypes.string.isRequired,
+    arrow: PropTypes.string.isRequired,
+}
+
+BlogListItem.defaultProps = {
+    image: '/images/No-Image.png',
+    phototext: 'No info...',
+}
