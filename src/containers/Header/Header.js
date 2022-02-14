@@ -7,11 +7,9 @@ export const Header = () => {
         <>
             <section className="top-header">
                 <div className="container">
-                    <div>
-                        <div className="row header">
-                            <Logo />
-                            <Menu />
-                        </div>
+                    <div className="row header">
+                        <Logo />
+                        <Menu />
                     </div>
                 </div>
             </section>
