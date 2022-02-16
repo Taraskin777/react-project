@@ -1,5 +1,5 @@
 /* mobile - xs */
-
+@media(max-width:768px) {
 .col-xs-1 {
 	flex: 0 0 8.33333%;
 	max-width: 8.33333%;
@@ -60,11 +60,13 @@
 	max-width: 100%;
 }
 
+}
+
 
 
 /* tablet - sm */
 
-@media (min-width:768px) {
+@media (min-width:769px) {
 	.container {
 		max-width: 720px;
 	}

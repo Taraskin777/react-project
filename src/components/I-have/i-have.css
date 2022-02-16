@@ -1,0 +1,21 @@
+.i-have {
+   padding-left: 50px;
+   padding-right: 50px;
+}
+
+.text-block {
+   padding: 40px 98px 0px 98px;
+}
+
+.h2 {
+   font-family: "PT Serif", Helvetica, Arial, sans-serif;
+   font-size: 40px;
+   line-height: 50px;
+   font-weight: 700;
+   letter-spacing: 0px;
+}
+
+.descr p {
+   font-size: 17px;
+    line-height: 27px;
+}
