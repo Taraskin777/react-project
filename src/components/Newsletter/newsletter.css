@@ -1,45 +1,47 @@
-
 .newsletter {
    position: relative;
-   padding-top: 120px;
-    padding-bottom: 80px;
-    background-color: #252525;
-    color: rgba(255, 255, 255, 0.815);
+   /* margin-top: 120px; */
+   /* padding-bottom: 80px; */
+   background-color: #252525;
+   color: rgba(255, 255, 255, 0.815);
 }
 
 .paralax {
    background-image: url(images/paralax.png);
-   height: 100vw;
-   position: absolute;
-
+   height: 400px;
+   background-attachment: fixed;
+  
+  
 }
+
 .news-box {
+   padding-top: 120px;
    max-width: 790px;
    margin: 0 auto;
-   padding-bottom: 80px;
+  margin-bottom: 150px;
 }
+
 .h2 {
    font-size: 40px;
-    line-height: 50px;
-    font-weight: 700;
-    margin-bottom: 20px;
-    
+   line-height: 50px;
+   font-weight: 700;
+   margin-bottom: 30px;
+
 }
 
 
 .input-mail {
-  width: 70%;
-  height: 38px;
-  margin-right: 20px;
-  border: none;
-  background-color: rgba(44,44,44,1);
-  font-family: "PT Serif", Helvetica, Arial, sans-serif;
-  font-size: 17px;
-  padding-left: 10px;
+   width: 70%;
+   height: 38px;
+   margin-right: 20px;
+   border: none;
+   background-color: rgba(44, 44, 44, 1);
+   font-family: "PT Serif", Helvetica, Arial, sans-serif;
+   font-size: 17px;
+   padding-left: 10px;
 }
-.input-mail ::placeholder {
 
-}
+.input-mail ::placeholder {}
 
 .mail-send {
    height: 40px;
@@ -52,11 +54,12 @@
    font-size: 15px;
 }
 
-.send .mail-send:hover{
-background-color: aliceblue;
-transition: 0.5s;
-color: #3f3f3f;
+.send .mail-send:hover {
+   background-color: aliceblue;
+   transition: 0.5s;
+   color: #3f3f3f;
 }
+
 input {
    outline: none;
    color: white;
