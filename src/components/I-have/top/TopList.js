@@ -4,20 +4,20 @@ const TopText = () => {
     return (
         <>
             <div className="row text-block col-xs-12 col-sm-9">
-                <div className="h2 col-xs-12 col-sm-8">
+                <div className="h2 col-xs-12 col-sm-7">
                     I have been taking photographs for 8 years.
                 </div>
-                <div className="descr col-xs-12 col-sm-4">
+                <div className="descr col-xs-12 col-sm-5">
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipisicing
                         elit, sed do eiusmod tempor incididunt ut labore et
                         dolore magna aliqua. Ut enim ad minim veniam, quis
                         nostrud
                     </p>
-                    <div>
-                        <div>
+                    <div className='view-photos'>
+                        <button>
                             <a href="#">VIEW PHOTOS</a>
-                        </div>
+                        </button>
                         <div className="arrow"></div>
                     </div>
                 </div>

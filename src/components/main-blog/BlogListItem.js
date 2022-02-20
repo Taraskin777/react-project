@@ -25,7 +25,7 @@ export const BlogListItem = ({
                                 <div className="buttonview">
                                     <a src="#">{buttonview}</a>
                                 </div>
-                                <div className="arrow">{arrow}</div>
+                                <div> {arrow}</div>
                             </div>
                         </div>
                     </div>
