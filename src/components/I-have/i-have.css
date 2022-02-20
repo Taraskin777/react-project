@@ -1,6 +1,7 @@
 .i-have {
    padding-left: 50px;
    padding-right: 50px;
+   padding-bottom: 150px;
 }
 
 /* top */
@@ -173,3 +174,4 @@
    height: 300px;
    background-position: center;
 }
+
