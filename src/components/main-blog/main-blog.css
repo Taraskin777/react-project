@@ -64,7 +64,14 @@ order: 2;
    background-color: black;
    color: white;
    cursor: pointer;
+   transition: 0.7s ease;
 
+}
+
+.article-button:hover {
+   background-color: rgba(0, 0, 0, 0.205)!important;
+   color: black;
+   transition: 0.7s;
 }
 
 .phototext {
@@ -78,3 +85,4 @@ order: 2;
 .buttonview {
    font-size: 18px;
 }
+
