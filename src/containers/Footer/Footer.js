@@ -1,10 +1,12 @@
 import React from "react"
 import 'common/style.css'
+import { Contacts } from "components/Contacts/Contacts"
+
 
  export const Footer = () => {
    return (
-       <div className="container footer">
-           <div>Footer</div>
-       </div>
+       <>
+           <Contacts/>
+       </>
    )
 }

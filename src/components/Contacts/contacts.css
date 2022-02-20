@@ -1,0 +1,67 @@
+
+.social {
+   justify-content: center;
+   margin-bottom: 50px;
+   margin-top: 100px;
+}
+
+
+.soc {
+   width: 28px;
+   height: 28px;
+   background-position: center;
+   background-size: contain;
+   margin: 10px;
+   border: 0px;
+   border-radius: 50%;
+   cursor: pointer;
+}
+.facebook {
+   background-image: url(images/facebook.png);
+}
+
+.gplus {
+   background-image: url(images/google.png);
+   background-size: auto;
+}
+
+.twitter {
+   background-image: url(images/twitter.png);
+}
+
+.pinterest {
+   background-image: url(images/pinterest.png);
+}
+
+.linked {
+   background-image: url(images/linkedin.png);
+   background-size: auto;
+}
+
+.phone {
+   text-align: center;
+   font-family: "PT Serif", Helvetica, Arial, sans-serif;
+   margin-bottom: 20px;
+   font-size: 17px;
+}
+
+.adress {
+   text-align: center;
+   font-family: "PT Serif", Helvetica, Arial, sans-serif;
+   margin-bottom: 100px;
+   font-size: 17px;
+}
+
+span {
+   color: rgba(0, 0, 0, 0.521);
+}
+
+.arrowup {
+   width: 30px;
+   height: 30px;
+   background-image: url(images/arrow_up.png);
+   background-position: center;
+   background-size: contain;
+   margin: 0 auto;
+   cursor: pointer;
+}
