@@ -1,7 +1,5 @@
 .newsletter {
    position: relative;
-   /* margin-top: 120px; */
-   /* padding-bottom: 80px; */
    background-color: #252525;
    color: rgba(255, 255, 255, 0.815);
 }
@@ -10,15 +8,13 @@
    background-image: url(images/paralax.png);
    height: 400px;
    background-attachment: fixed;
-  
-  
 }
 
 .news-box {
    padding-top: 120px;
    max-width: 790px;
    margin: 0 auto;
-  margin-bottom: 150px;
+   margin-bottom: 150px;
 }
 
 .h2 {
@@ -26,7 +22,6 @@
    line-height: 50px;
    font-weight: 700;
    margin-bottom: 30px;
-
 }
 
 
@@ -40,8 +35,6 @@
    font-size: 17px;
    padding-left: 10px;
 }
-
-.input-mail ::placeholder {}
 
 .mail-send {
    height: 40px;
