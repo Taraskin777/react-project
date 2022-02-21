@@ -65,3 +65,7 @@ span {
    margin: 0 auto;
    cursor: pointer;
 }
+
+.social a {
+   visibility: hidden;
+}
