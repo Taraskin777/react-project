@@ -7,19 +7,19 @@ export const Menu = () => {
             <div>
                 <ul className="menu">
                     <li className="first">
-                        <a href="#">HOME</a>
+                        <a href="https://www.google.com.ua">HOME</a>
                     </li>
                     <li>
-                        <a href="#">INFO</a>
+                        <a href="https://www.google.com.ua">INFO</a>
                     </li>
                     <li>
-                        <a href="#">BLOG</a>
+                        <a href="https://www.google.com.ua">BLOG</a>
                     </li>
                     <li>
-                        <a href="#">PORTFOLIO</a>
+                        <a href="https://www.google.com.ua">PORTFOLIO</a>
                     </li>
                     <li>
-                        <a href="#">CONTACT</a>
+                        <a href="https://www.google.com.ua">CONTACT</a>
                     </li>
                 </ul>
             </div>

@@ -16,7 +16,7 @@ const TopText = () => {
                     </p>
                     <div className='view-photos'>
                         <button>
-                            <a href="#">VIEW PHOTOS</a>
+                            <a href="https://www.google.com.ua">VIEW PHOTOS</a>
                         </button>
                         <div className="arrow"></div>
                     </div>

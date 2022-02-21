@@ -11,7 +11,7 @@ export const Middle = () => {
                         <h4>I have a wide photographic offer</h4>
                         <div className='view-photos'>
                             <button>
-                                <a href="#">VIEW OFFER</a>
+                                <a href="https://www.google.com.ua">VIEW OFFER</a>
                             </button>
                             <div className="arrow-white"></div>
                         </div>
@@ -24,7 +24,7 @@ export const Middle = () => {
                         <h4>I have a wide photographic offer</h4>
                         <div className='view-photos'>
                             <button>
-                                <a href="#">GO TO THE CONTACT</a>
+                                <a href="https://www.google.com.ua">GO TO THE CONTACT</a>
                             </button>
                             <div className="arrow"></div>
                         </div>

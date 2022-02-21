@@ -10,7 +10,7 @@ export const Bottom = () => {
                         <h4>Professional equipment</h4>
                         <div className="view-photos">
                             <button>
-                                <a href="#">READ MORE</a>
+                                <a href="https://www.google.com.ua">READ MORE</a>
                             </button>
                             <div className="arrow"></div>
                         </div>
@@ -23,7 +23,7 @@ export const Bottom = () => {
                         <h4>I run a travel photo blog</h4>
                         <div className="view-photos">
                             <button>
-                                <a href="#">VIEW BLOG</a>
+                                <a href="https://www.google.com.ua">VIEW BLOG</a>
                             </button>
                             <div className="arrow"></div>
                         </div>

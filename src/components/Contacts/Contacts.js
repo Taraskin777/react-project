@@ -8,19 +8,19 @@ export const Contacts = () => {
                 <div className="container">
                     <div className="row social">
                         <div className="facebook soc">
-                            <a href="#"></a>
+                            <a href="https://www.google.com.ua"></a>
                         </div>
                         <div className="gplus soc">
-                            <a href="#"></a>
+                            <a href="https://www.google.com.ua"></a>
                         </div>
                         <div className="twitter soc">
-                            <a href="#"></a>
+                            <a href="https://www.google.com.ua"></a>
                         </div>
                         <div className="pinterest soc">
-                            <a href="#"></a>
+                            <a href="https://www.google.com.ua"></a>
                         </div>
                         <div className="linked soc">
-                            <a href="#"></a>
+                            <a href="https://www.google.com.ua"></a>
                         </div>
                     </div>
                     <div className="phone">

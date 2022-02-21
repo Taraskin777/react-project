@@ -23,7 +23,7 @@ export const BlogListItem = ({
                             <div className="phototext">{phototext}</div>
                             <div className="article-button">
                                 <div className="buttonview">
-                                    <a href="#">{buttonview}</a>
+                                    <a href="https://www.google.com.ua">{buttonview}</a>
                                 </div>
                                 <div> {arrow}</div>
                             </div>
