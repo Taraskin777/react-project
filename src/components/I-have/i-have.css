@@ -7,7 +7,7 @@
 /* top */
 
 .text-block {
-   padding: 0px 98px 0px 98px;
+   padding: 40px 4% 0px;
    align-content: center;
 }
 
@@ -29,8 +29,13 @@
 
 .view-photos {
    display: flex;
-   
+   transition: 0.7s ease;
 }
+
+.view-photos :hover{
+   font-size: 15px;
+   transition: 0.5s;
+} 
 
  button {
    background: none;
@@ -45,6 +50,8 @@
    letter-spacing: 2px;
    font-size: 13px;
 }
+
+
 
 
 .arrow {
@@ -79,7 +86,7 @@
 }
 
 .box {
-   padding: 50px 122px 0px;
+   padding: 10% 15% 0px;
    display: flex;
    flex-direction: column;
    align-content: space-between;

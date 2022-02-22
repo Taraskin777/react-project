@@ -30,8 +30,8 @@ order: 2;
    height: 198px;
    width: auto;
    border-right: 2px solid rgba(128, 128, 128, 0.466);
-   margin-top: 50px;
-   margin-bottom: 100px;
+   margin-top: 10%;
+   margin-bottom: 15%;
    /* transform: scale(-1, 1) */
 }
 
@@ -42,7 +42,7 @@ order: 2;
    line-height: 60px;
    font-weight: 700;
    margin: 0 auto;
-   margin-bottom: 20px;
+   margin-bottom: 7%;
 }
 
 .article-bot {
@@ -52,7 +52,7 @@ order: 2;
    align-items: center;
    max-width: 522px;
    margin: 0 auto;
-   margin-top: 60px;
+   margin-top: 5%;
 }
 .buttonview a {
    color: white;
@@ -74,6 +74,13 @@ order: 2;
 
 }
 
+.article-button :hover {
+
+background-color: white;
+color: black;
+transition: 0.5s;
+}
+
 .phototext {
    font-family: "Montserrat", Helvetica, Arial, sans-serif;
    font-size: 18px;
@@ -85,6 +92,9 @@ order: 2;
 .buttonview {
    font-size: 18px;
 }
+
+
+
 
 
 

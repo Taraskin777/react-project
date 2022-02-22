@@ -15,6 +15,13 @@
    border: 0px;
    border-radius: 50%;
    cursor: pointer;
+   transition: 0.7s ease;
+}
+
+.soc:hover {
+   /* border-radius: 0%; */
+   border: 5px solid ;
+   transition: 0.5s;
 }
 .facebook {
    background-image: url(images/facebook.png);
