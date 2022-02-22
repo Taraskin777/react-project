@@ -8,30 +8,28 @@ export const BlogList = () => {
         <>
             <section className="blog">
                 <div className="container">
-                    <div className='row'>
-                        {blogArray.map(
-                            ({
-                                id,
-                                image,
-                                name,
-                                phototext,
-                                buttonview,
-                                line,
-                                arrow,
-                            }) => (
-                                <div className="row" key={id}>
-                                    <BlogListItem
-                                        image={image}
-                                        line={line}
-                                        name={name}
-                                        phototext={phototext}
-                                        buttonview={buttonview}
-                                        arrow={arrow}
-                                    />
-                                </div>
-                            )
-                        )}
-                    </div>
+                    {blogArray.map(
+                        ({
+                            id,
+                            image,
+                            name,
+                            phototext,
+                            buttonview,
+                            line,
+                            arrow,
+                        }) => (
+                            <div className="row" key={id}>
+                                <BlogListItem
+                                    image={image}
+                                    line={line}
+                                    name={name}
+                                    phototext={phototext}
+                                    buttonview={buttonview}
+                                    arrow={arrow}
+                                />
+                            </div>
+                        )
+                    )}
                 </div>
             </section>
         </>
