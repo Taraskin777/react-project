@@ -7,7 +7,7 @@
 
 }
 
-/* .row .article:nth-child(1) {
+ /* .row .article:nth-child(1) {
 order: 2;
 } */
 
@@ -76,8 +76,8 @@ order: 2;
 
 .article-button :hover {
 
-background-color: white;
-color: black;
+text-decoration: underline;
+font-size: 20px;
 transition: 0.5s;
 }
 
