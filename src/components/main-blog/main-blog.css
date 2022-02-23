@@ -11,9 +11,9 @@
 order: 2;
 } */
 
-/* .row :nth-child(1) {
-   order: 2;
-} */
+.row>.article :nth-child(0) {
+   order: 1;
+}
 
 
 .article-img img {

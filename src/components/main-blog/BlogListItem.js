@@ -16,7 +16,7 @@ export const BlogListItem = ({
                     <div className="article-img col-xs-12 col-sm-6">
                         <img src={image} alt=""></img>
                     </div>
-                    <div className="text left-text col-xs-12 col-sm-6">
+                    <div className="text col-xs-12 col-sm-6">
                         <div className="line">{line}</div>
                         <div className="name">{name}</div>
                         <div className="article-bot">
