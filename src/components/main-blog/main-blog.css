@@ -74,10 +74,8 @@ order: 2;
 
 }
 
-.article-button :hover {
-
-text-decoration: underline;
-font-size: 20px;
+.article-button:hover {
+background-color: rgba(0, 0, 0, 0.507);
 transition: 0.5s;
 }
 

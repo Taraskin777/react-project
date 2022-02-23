@@ -32,10 +32,10 @@
    transition: 0.7s ease;
 }
 
-.view-photos :hover{
-   font-size: 15px;
-   text-decoration: underline;
-   transition: 0.5s;
+.view-photos:hover{
+
+   transition: 0.4s;
+   border-bottom: 2px solid black;
 } 
 
  button {
