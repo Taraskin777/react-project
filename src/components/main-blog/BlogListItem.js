@@ -12,7 +12,7 @@ export const BlogListItem = ({
     return (
         <>
             
-                <div className="row article">
+                <div className="article">
                     <div className="article-img col-xs-12 col-sm-6">
                         <img src={image} alt=""></img>
                     </div>

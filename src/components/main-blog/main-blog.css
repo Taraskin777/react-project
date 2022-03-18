@@ -3,6 +3,7 @@
 }
 
 .article {
+   display:flex;
    margin-bottom: 100px;
 
 }
@@ -11,7 +12,7 @@
 order: 2;
 } */
 
-.row>.article :nth-child(0) {
+.row>.article :nth-child(1) {
    order: 1;
 }
 

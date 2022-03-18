@@ -9,7 +9,7 @@ export const Middle = () => {
                     <div className="box black">
                         <div className="icon-2"></div>
                         <h4>I have a wide photographic offer</h4>
-                        <div className='view-photos'>
+                        <div className='view-photos offer'>
                             <button>
                                 <a href="https://www.google.com.ua">VIEW OFFER</a>
                             </button>

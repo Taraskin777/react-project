@@ -19,7 +19,7 @@ export const BlogList = () => {
                                 line,
                                 arrow,
                             }) => (
-                                <div className="row" key={id}>
+                                <div key={id}>
                                     <BlogListItem
                                         image={image}
                                         line={line}
