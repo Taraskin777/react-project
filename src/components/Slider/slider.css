@@ -1,17 +1,18 @@
 .slider {
    position:relative;
-   height: 100vh;
+   height: 120vh;
    display: flex;
    /* flex-wrap: nowrap; */
    justify-content: center;
    align-items: center;
-   margin-top: 50px;
-   margin-bottom: 100px;
+   /* margin-top: 50px; */
+   /* margin-bottom: 100px; */
 }
 
 .image {
-  
-   width: 1500px;
+  display: block;
+   width: 60%;
+   margin: 0 auto;
    height: inherit;
    border-radius: 10px;
 }
