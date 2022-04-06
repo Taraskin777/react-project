@@ -8,7 +8,7 @@ export const BlogList = () => {
         <>
             <section className="blog">
                 <div className="container">
-                    <div className='row'>
+                    <div className="row">
                         {blogArray.map(
                             ({
                                 id,
@@ -19,16 +19,15 @@ export const BlogList = () => {
                                 line,
                                 arrow,
                             }) => (
-                                <div key={id}>
-                                    <BlogListItem
-                                        image={image}
-                                        line={line}
-                                        name={name}
-                                        phototext={phototext}
-                                        buttonview={buttonview}
-                                        arrow={arrow}
-                                    />
-                                </div>
+                                <BlogListItem
+                                    key={id}
+                                    image={image}
+                                    line={line}
+                                    name={name}
+                                    phototext={phototext}
+                                    buttonview={buttonview}
+                                    arrow={arrow}
+                                />
                             )
                         )}
                     </div>

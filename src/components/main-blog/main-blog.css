@@ -8,13 +8,18 @@
 
 }
 
- /* .row .article:nth-child(1) {
-order: 2;
-} */
-
-.row>.article :nth-child(1) {
-   order: 1;
+ .article:nth-child(even) .article-img {
+order: 1;
 }
+
+
+.article:nth-child(even) .line {
+   border-left: 2px solid rgba(128, 128, 128, 0.466);
+   border-right: none;
+   }
+/* .row>.article :nth-child(1) {
+   order: 1;
+} */
 
 
 .article-img img {
