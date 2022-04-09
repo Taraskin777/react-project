@@ -6,7 +6,8 @@ export const blogArray = [
         name: 'Because every man is different',
         phototext: 'PHOTOGRAPHY OF PEOPLE',
         buttonview: 'VIEW MORE',
-        arrow: '>'
+        arrow: '>',
+        category: 'Category: people',
     },
     {
         id: 2,
@@ -15,7 +16,8 @@ export const blogArray = [
         name: 'Beauty is everywhere around us',
         phototext: 'PHOTOGRAPHY OF NATURE',
         buttonview: 'VIEW MORE',
-        arrow: '>'
+        arrow: '>',
+        category: 'Category: nature',
     },
     {
         id: 3,
@@ -24,6 +26,7 @@ export const blogArray = [
         name: 'The surprising world of wild animals',
         phototext: 'PHOTOGRAPHY OF ANIMALS',
         buttonview: 'VIEW MORE',
-        arrow: '>'
+        arrow: '>',
+        category: 'Category: animals',
     },
 ]

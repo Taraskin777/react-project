@@ -18,6 +18,7 @@ export const BlogList = () => {
                                 buttonview,
                                 line,
                                 arrow,
+                                category,
                             }) => (
                                 <BlogListItem
                                     key={id}
@@ -27,6 +28,7 @@ export const BlogList = () => {
                                     phototext={phototext}
                                     buttonview={buttonview}
                                     arrow={arrow}
+                                    category = {category}
                                 />
                             )
                         )}

@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import './menu.css'
 
 export const Menu = () => {
@@ -6,20 +7,20 @@ export const Menu = () => {
         <nav className="navigation col-md-6">
             <div>
                 <ul className="menu">
-                    <li className="first">
-                        <a href="https://www.google.com.ua">HOME</a>
+                    <li>
+                        <Link to="/">HOME</Link>
                     </li>
                     <li>
-                        <a href="https://www.google.com.ua">INFO</a>
+                        <Link to="/">INFO</Link>
                     </li>
                     <li>
-                        <a href="https://www.google.com.ua">BLOG</a>
+                        <Link to="/">BLOG</Link>
                     </li>
                     <li>
-                        <a href="https://www.google.com.ua">PORTFOLIO</a>
+                        <Link to="/">PORTFOLIO</Link>
                     </li>
                     <li>
-                        <a href="https://www.google.com.ua">CONTACT</a>
+                        <Link to="/">CONTACT</Link>
                     </li>
                 </ul>
             </div>

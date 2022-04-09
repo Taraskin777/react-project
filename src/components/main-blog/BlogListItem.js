@@ -1,5 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import { Link } from 'react-router-dom'
 
 export const BlogListItem = ({
     image,
@@ -8,6 +9,7 @@ export const BlogListItem = ({
     buttonview,
     line,
     arrow,
+    category,
 }) => {
     return (
         <>
@@ -29,6 +31,12 @@ export const BlogListItem = ({
                             <div> {arrow}</div>
                         </div>
                     </div>
+
+                    <div>
+                        <Link to="/animals" className="category">
+                            {category}
+                        </Link>
+                    </div>
                 </div>
             </div>
         </>
@@ -42,6 +50,7 @@ BlogListItem.propTypes = {
     buttonview: PropTypes.string.isRequired,
     line: PropTypes.string.isRequired,
     arrow: PropTypes.string.isRequired,
+    category: PropTypes.string,
 }
 
 BlogListItem.defaultProps = {

@@ -15,13 +15,8 @@
 .menu {
    display: flex;
    justify-content: space-between;
-
-
 }
 
-.first a {
-   color: white!important
-}
 
 .menu li a {
   line-height: 110px;
