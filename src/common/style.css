@@ -5,6 +5,8 @@
 body {
    font-family: 'Montserrat', sans-serif;
    font-family: 'PT Serif', serif;
+   /* height: 100%; */
+   
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=PT+Serif:wght@400;700&display=swap');
@@ -28,9 +30,15 @@ section {
 
 }
 
+
 /* header */
 
 
+.top-header {
+   position: sticky;
+   top: 0;
+   z-index: 20;
+}
 
 
 /* main */
