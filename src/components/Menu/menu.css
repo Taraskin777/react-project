@@ -1,16 +1,13 @@
 .header {
    justify-content: space-between;
    align-content: center;
-   /* height: 100px; */
 }
 
 .top-header {
    background-color: #252525;
    height: 110px;
    opacity: 0.97;
-
 }
-
 
 .menu {
    display: flex;
@@ -24,12 +21,14 @@
    color: rgba(255, 255, 255, 0.548);
    transition: 1s ease;
    letter-spacing: 4px;
-
 }
 
 .menu li a:hover {
    color: white;
- 
    transition: 0.7s;
-   
+}
+
+
+.nav-link {
+   color: white !important;
 }

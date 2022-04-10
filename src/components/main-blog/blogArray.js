@@ -7,7 +7,7 @@ export const blogArray = [
         phototext: 'PHOTOGRAPHY OF PEOPLE',
         buttonview: 'VIEW MORE',
         arrow: '>',
-        category: 'Category: people',
+        category: 'Category:  people',
     },
     {
         id: 2,

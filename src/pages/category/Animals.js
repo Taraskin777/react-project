@@ -1,10 +1,10 @@
 import React from 'react'
-import './category.css'
+
 
 export const Animals = () => {
     return (
         <div> 
-            <h1 className="animals">Animals</h1>
+            <h1 className="article-name">Animals</h1>
         </div>
     )
 }

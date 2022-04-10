@@ -1,5 +1,9 @@
 import React from 'react'
 
 export const People = () => {
-    return <h1>Animals</h1>
+    return (
+        <div>
+            <h1 className="article-name">People</h1>
+        </div>
+    )
 }

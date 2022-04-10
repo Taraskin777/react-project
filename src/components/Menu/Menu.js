@@ -1,6 +1,9 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 import './menu.css'
+
+
+const setNavLinkClass = ({isActive}) => (isActive ? 'nav-link' : '')
 
 export const Menu = () => {
     return (
@@ -8,19 +11,19 @@ export const Menu = () => {
             <div>
                 <ul className="menu">
                     <li>
-                        <Link to="/">HOME</Link>
+                        <NavLink className={setNavLinkClass} to="/">HOME</NavLink>
                     </li>
                     <li>
-                        <Link to="/">INFO</Link>
+                        <NavLink className={setNavLinkClass} to="/info">INFO</NavLink>
                     </li>
                     <li>
-                        <Link to="/">BLOG</Link>
+                        <NavLink className={setNavLinkClass} to="/blog">BLOG</NavLink>
                     </li>
                     <li>
-                        <Link to="/">PORTFOLIO</Link>
+                        <NavLink className={setNavLinkClass} to="/portfolio">PORTFOLIO</NavLink>
                     </li>
                     <li>
-                        <Link to="/">CONTACT</Link>
+                        <NavLink className={setNavLinkClass} to="/contact">CONTACT</NavLink>
                     </li>
                 </ul>
             </div>
