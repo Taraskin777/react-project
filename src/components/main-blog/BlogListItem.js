@@ -32,11 +32,7 @@ export const BlogListItem = ({
                         </div>
                     </div>
 
-                    <div>
-                        <Link to="/animals" className="category">
-                            {category}
-                        </Link>
-                    </div>
+                    <div className="category">{category}</div>
                 </div>
             </div>
         </>

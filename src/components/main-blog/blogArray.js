@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom'
+
 export const blogArray = [
     {
         id: 1,
@@ -7,7 +9,7 @@ export const blogArray = [
         phototext: 'PHOTOGRAPHY OF PEOPLE',
         buttonview: 'VIEW MORE',
         arrow: '>',
-        category: 'Category:  people',
+        category: <Link to="/people">Category: people </Link>,
     },
     {
         id: 2,
@@ -17,7 +19,7 @@ export const blogArray = [
         phototext: 'PHOTOGRAPHY OF NATURE',
         buttonview: 'VIEW MORE',
         arrow: '>',
-        category: 'Category: nature',
+        category: <Link to="/nature">Category: nature </Link>,
     },
     {
         id: 3,
@@ -27,6 +29,6 @@ export const blogArray = [
         phototext: 'PHOTOGRAPHY OF ANIMALS',
         buttonview: 'VIEW MORE',
         arrow: '>',
-        category: 'Category: animals',
+        category: <Link to="/animals">Category: animals </Link>,
     },
 ]
