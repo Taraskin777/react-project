@@ -11,6 +11,7 @@ import { Animals } from 'pages/category/Animals'
 import { People } from 'pages/category/People'
 import { Nature } from 'pages/category/Nature'
 
+
 export const App = () => {
     return (
         <>

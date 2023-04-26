@@ -1,10 +1,12 @@
 import React from 'react'
 import './contacts.css'
 
+
 export const Contacts = () => {
     return (
         <>
             <section>
+                
                 <div className="container">
                     <div className="row social">
                         <div className="facebook soc">

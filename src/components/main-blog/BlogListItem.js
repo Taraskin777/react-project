@@ -1,5 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 export const BlogListItem = ({
     image,
@@ -10,9 +12,11 @@ export const BlogListItem = ({
     arrow,
     category,
 }) => {
+    AOS.init({ duration: 2000 })
+
     return (
         <>
-            <div className="article">
+            <div data-aos="fade-left" data-aos-delay="1000" className="article">
                 <div className="article-img col-xs-12 col-sm-6">
                     <img src={image} alt=""></img>
                 </div>
